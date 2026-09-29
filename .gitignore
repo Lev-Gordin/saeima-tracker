@@ -1,0 +1,21 @@
+# --- Сборка Maven ---
+target/
+
+# --- Java / JVM ---
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+out/
+
+# --- macOS ---
+.DS_Store
+
+# --- Секреты ---
+.env
+.env.*
+!.env.example
